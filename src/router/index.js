@@ -40,7 +40,16 @@ const routes = [
           title: "Store",
           requiresAuth: true
         }
-      }
+      },
+      {
+        path: "chartPage",
+        name: "ChartPage",
+        component: () => import("../components/home/page_contents/ChartPage.vue"),
+        meta: {
+          // title: "Store",
+          // requiresAuth: true
+        }
+      },
     ],
     meta: { requiresAuth: true }
   }

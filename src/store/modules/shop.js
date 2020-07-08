@@ -4,7 +4,45 @@ import API_BASE from "../../services/ApiBase";
 const shop = {
   namespaced: true,
   state: {
-    listShop: []
+    listShop: [],
+    listRevenue: [
+      {
+        date: "2020-07-08",
+        totalAmount: "200"
+      },
+      {
+        date: "2020-07-09",
+        totalAmount: "300"
+      },
+      {
+        date: "2020-07-10",
+        totalAmount: "400"
+      },
+      {
+        date: "2020-07-11",
+        totalAmount: "400"
+      },
+      {
+        date: "2020-07-12",
+        totalAmount: "500"
+      },
+      {
+        date: "2020-07-13",
+        totalAmount: "200"
+      },
+      {
+        date: "2020-07-14",
+        totalAmount: "800"
+      },
+      {
+        date: "2020-07-15",
+        totalAmount: "900"
+      },
+      {
+        date: "2020-07-16",
+        totalAmount: "1000"
+      }
+    ]
   },
   getters: {},
   mutations: {
