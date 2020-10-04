@@ -98,7 +98,8 @@ export default {
         .auth()
         .signInWithPopup(provider)
         .then(result => {
-          console.log(result.credential.idToken);
+          console.log(result);
+          console.log('aaaaa' , firebase.auth().currentUser.getIdToken());
         })
         .catch(error => {
           console.log(error);
